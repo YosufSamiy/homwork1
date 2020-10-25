@@ -8,7 +8,7 @@ use Faker\Generator as Faker;
 $factory->define(\App\offices::class, function (Faker $faker) {
     return [
 
-        'cod'=>$faker->randomNumber(),
+        'code'=>$faker->randomNumber(),
         'city'=>$faker->city,
         'phone'=>$faker->phoneNumber,
         'address1'=>$faker->address,
